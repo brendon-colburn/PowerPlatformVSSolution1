@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="PowerPlatformVSSolution1.DCMTC.dll" Id="47c33e63-7ed4-42e0-af3f-87c860a831c6" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <clear />
+        <Plugin Description="Plug-in to Create of bac_trainingrequest" FriendlyName="Create of bac_trainingrequest" Name="PowerPlatformVSSolution1.DCMTC.PostOperationbac_trainingrequestCreate" Id="7d228a0b-1794-4abd-9bc3-fc546ba5995f" TypeName="PowerPlatformVSSolution1.DCMTC.PostOperationbac_trainingrequestCreate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Create of bac_trainingrequest" Description="Create of bac_trainingrequest" Id="0e7463a1-3d04-ec11-94ef-000d3a198f9f" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="bac_trainingrequest" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+  </Solutions>
+  <XamlWorkflows />
+  <DataProviders />
+</Register>
